@@ -1,0 +1,126 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header {
+    text-align:center;
+    padding:1vh;
+    background:#fdffff
+}
+body {
+    background: #570000;
+}
+header h1 {
+    color:black;
+    padding:2vh;
+    width:60%;
+    margin:1vh auto;
+    border-radius:12px;
+}
+nav {
+    background:#130d0d;
+    color:white;
+}
+footer {
+    background:#130d0d;
+    color:white;
+    padding:2vh;
+    min-height:15vh;
+}
+.container {
+    min-height:75vh;
+    background:#fdffff ;
+    width:80%;
+    margin:auto;
+    padding:2vh;
+}
+nav ul {
+    list-style-type:none;
+}
+nav li {
+    display:inline-block;
+}
+nav li a {
+    padding: 1rem 4rem;
+    display:block;
+    text-decoration: none;
+    color:#fdffff
+}
+nav li a:hover{
+    text-decoration: underline;
+}
+.jumbotron img {
+    width:100%;
+    height:auto;
+    display:block;
+    filter:blur(2px) brightness(60%);
+    border-radius:12px ;   
+}
+.jumbotron {
+    position: relative;
+    width: 100%;
+    border-radius: 12px;
+    color: #fdffff;
+    text-align: center;
+}
+.overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    align-self: center;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(87, 0, 0, 0.15);
+    border-radius: 12px;
+}
+.overlay h3 {
+    font-size: 3rem;
+    margin: 1rem;
+}
+.overlay p {
+    font-size: 1.5rem;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2vh;
+}
+.index-item {
+    flex-basis: 30%;
+    max-width: 300px;
+    text-align: center;
+    border-radius: 12px;
+}
+.index-item a {
+    text-decoration: none;
+    color: black;
+}
+.index-item h3 {
+    background: #570000;
+    color: #fdffff;
+    padding: .75rem;
+}
+.index-item p {
+    padding: .75rem;
+    line-height: 1.5rem;
+}
+.index-item:hover {
+    box-shadow: 6px 6px 5px 1px rgba(0, 0, 0, 0.41);
+    border: 1px solid rgba(0, 0, 0, 0.41);
+}
+.index-media {
+    height: 30vh;
+    overflow: hidden;
+}
+.index-media img {
+    display: block;
+    height: 100%;
+    margin: auto;
+}
